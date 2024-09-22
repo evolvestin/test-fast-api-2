@@ -75,13 +75,13 @@
 
 Клонируем:
 ```bash
-git clone https://github.com/evolvestin/test-tasks.git
+git clone https://github.com/evolvestin/test-fast-api-2.git
 ```
 Устанавливаем зависимости:
 ```bash
 pip install -r requirements.txt
 ```
-Создаем .env файл с переменной подключения к базе данных:
+Создаем `.env` файл с переменной подключения к базе данных:
 ```plaintext
 DATABASE_URL=postgresql://user:pass@localhost/test_fast_api
 ```
